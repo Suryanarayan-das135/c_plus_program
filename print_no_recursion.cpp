@@ -1,11 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
+//this is one way to print
 /*int printno(int i,int n){
     if(i>n)
       return 0;
       cout<<i<<endl;
       printno(i+1,n);
 }*/
+//this is second way to print
 int printno1(int i,int n){
     if(i<1)
     return 0;
